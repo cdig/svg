@@ -1,7 +1,4 @@
 @SVG =
-  svg: document.querySelector "[js-svg]"
-  defs: document.querySelector "[js-svg] defs"
-  
   svgNS: "http://www.w3.org/2000/svg"
   xlinkNS: "http://www.w3.org/1999/xlink"
   
