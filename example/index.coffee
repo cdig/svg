@@ -26,6 +26,7 @@ spawnCircles = ()->
       rate: Math.random()
       elm: SVG.create "circle", root,
         fill: "hsl(#{Math.random()*360}, 50%, 50%)"
+  SVG.append root, counter
 
 animateCircles = (dt)->
   for circle in circles
