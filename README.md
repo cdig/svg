@@ -8,7 +8,7 @@ To run the example scene, cd into the repo root and run the following:
 
 ```bash
 open example/index.html
-coffee -w -o example/ **/*.coffee
+coffee -w -o example/ *.coffee **/*.coffee
 ```
 
 ## License
